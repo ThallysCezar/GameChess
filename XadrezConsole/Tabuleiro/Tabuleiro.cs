@@ -24,6 +24,12 @@
             return pecas[pos.linha, pos.coluna];
         }
 
+        public bool existePeca(Posicao pos)
+        {
+            validarPosicao(pos);
+            return peca(pos) != null;
+        }
+
         public void colocarPeca(Peca p, Posicao pos)
         {
             if(existePeca(pos))
@@ -36,23 +42,16 @@
 
         public Peca retirarPeca(Posicao pos)
         {
-            if(peca(pos) == null)
+            if (peca(pos) == null)
             {
                 return null;
             }
             Peca aux = peca(pos);
             aux.posicao = null;
-
             pecas[pos.linha, pos.coluna] = null;
-
             return aux;
         }
 
-        public bool existePeca(Posicao pos)
-        {
-            validarPosicao(pos);
-            return peca(pos) != null;
-        }
 
         public bool posicaoValida(Posicao pos)
         {

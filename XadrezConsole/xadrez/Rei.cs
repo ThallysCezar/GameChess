@@ -19,7 +19,7 @@ namespace xadrez
             return p == null || p.cor != cor;
         }
 
-        public override bool[,] movimentosPossiveis() 
+        public override bool[,] movimentosPossiveis()
         {
             bool[,] mat = new bool[tab.linhas, tab.colunas];
 
@@ -54,22 +54,15 @@ namespace xadrez
                 mat[pos.linha, pos.coluna] = true;
             }
 
-            //nordeste
-            pos.definirValores(posicao.linha - 1, posicao.coluna + 1);
-            if (tab.posicaoValida(pos) && podeMover(pos))
-            {
-                mat[pos.linha, pos.coluna] = true;
-            }
-
             //abaixo
-            pos.definirValores(posicao.linha + 1, posicao.coluna - 1);
+            pos.definirValores(posicao.linha + 1, posicao.coluna);
             if (tab.posicaoValida(pos) && podeMover(pos))
             {
                 mat[pos.linha, pos.coluna] = true;
             }
 
             //sudoeste
-            pos.definirValores(posicao.linha + 1, posicao.coluna);
+            pos.definirValores(posicao.linha + 1, posicao.coluna - 1);
             if (tab.posicaoValida(pos) && podeMover(pos))
             {
                 mat[pos.linha, pos.coluna] = true;
@@ -90,7 +83,5 @@ namespace xadrez
             }
             return mat;
         }
-
-       
     }
 }
