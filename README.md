@@ -25,7 +25,7 @@ Instruções de como instalar e configurar o projeto.
     - Rei = "R"
     - Dama = "D"
 - Para jogar o jogo de xadrez, precisa saber qual é a linha e a coluna que deseja mover a peça, pois o jogo é baseado em matriz:
-    
+    ![alt text](Assets/Img/image.png)
 
 ## Contribuição
 
