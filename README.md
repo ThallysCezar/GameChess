@@ -27,6 +27,7 @@ Para instalar e usar o projeto, basta baixar o projeto e rodar o projeto no VS C
 <p align="center">
   <img src="Assets/Img/image.png" alt="Descrição da imagem">
 </p>
+
     1. O qual teremos que escolher uma coluna(a, b, c, d, e, f, g, h) e uma linha(1, 2, 3, 4, 5, 6, ,7, 8) para mover a peça,
     por exemplo, para mover o primeiro Peão da cor branca da esquerda para direita, teremos que escolher a2(linha + coluna).
     2. Depois escolher para onde ele irá, porém foi implementado um método o qual ele diz quais os movimentos possíveis,
