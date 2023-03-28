@@ -25,7 +25,16 @@ Instruções de como instalar e configurar o projeto.
     - Rei = "R"
     - Dama = "D"
 - Para jogar o jogo de xadrez, precisa saber qual é a linha e a coluna que deseja mover a peça, pois o jogo é baseado em matriz:
+
+
     ![alt text](Assets/Img/image.png)
+
+
+    1. O qual teremos que escolher uma coluna(a, b, c, d, e, f, g, h) e uma linha(1, 2, 3, 4, 5, 6, ,7, 8) para mover a peça, por exemplo, para mover o primeiro Peão da cor branca da esquerda para direita, teremos que escolher a2(linha + coluna).
+    2. Depois escolher para onde ele irá, porém foi implementado um método o qual ele diz quais os movimentos possíveis, então basta escolher, como: a2 para a4.
+    3. logo, ficará, "Origem: a2", "Destino: a4", então o peão da casa **a2** se moverá para casa **a4**
+- Foi implementando também algumas jogadas especiais, como:
+    - 
 
 ## Contribuição
 
