@@ -29,8 +29,15 @@ Para instalar e usar o projeto, basta baixar o projeto e rodar o projeto no VS C
 </p>
 
 
+<<<<<<< HEAD
     1. O qual teremos que escolher uma coluna(a, b, c, d, e, f, g, h) e uma linha(1, 2, 3, 4, 5, 6,7, 8) para mover a peça, por exemplo, para mover o primeiro Peão da cor branca da esquerda para direita, teremos que escolher a2(linha + coluna).
     2. Depois escolher para onde ele irá, porém foi implementado um método o qual ele diz quais os movimentos possíveis, então basta escolher, como: a2 para a4.
+=======
+    1. O qual teremos que escolher uma coluna(a, b, c, d, e, f, g, h) e uma linha(1, 2, 3, 4, 5, 6, ,7, 8) para mover a peça,
+    por exemplo, para mover o primeiro Peão da cor branca da esquerda para direita, teremos que escolher a2(linha + coluna).
+    2. Depois escolher para onde ele irá, porém foi implementado um método o qual ele diz quais os movimentos possíveis,
+    então basta escolher, como: a2 para a4.
+>>>>>>> 7dbfef0cabfb19dd9577d71008633f0bfeb2a118
     3. Logo, ficará, "Origem: a2", "Destino: a4", então o peão da casa **a2** se moverá para casa **a4**
     4. O projeto foi feito com a arquitetura padrão camadas, o qual fiz com as camadas:
         - Tabuleiro (lógica do tabuleiro)
@@ -38,8 +45,11 @@ Para instalar e usar o projeto, basta baixar o projeto e rodar o projeto no VS C
         - Xadrez (lógica do tabuleiro com as regras do xadrez)
 
 - Foi implementando também algumas jogadas especiais, como:
-    - Roque: que é uma jogada onde o Rei e a Torre são movidos juntos, com o objetivo de proteger o Rei e colocar a Torre em uma posição melhor. Existem dois tipos de Roque, o curso e o grande, dependendo da direção que a Torre é movida;
-    - En Passant: que é uma jogada onde um peão avança duas casas a partir da posição inicial, e um peão adversário que esteja ao lado pode capturá-lo como se ele tivesse avançado apenas uma casa.
-    - Promoção: A promoção do peão para Dama ou Rainha é uma jogada onde um peão que chega na última linha do tabuleiro pode ser promovido a uma peça mais poderosa, normalmente a Dama ou a Rainha, dando ao jogador uma vantagem estratégica.
+    - Roque: que é uma jogada onde o Rei e a Torre são movidos juntos, com o objetivo de proteger o Rei e colocar <br>
+    a Torre em uma posição melhor. Existem dois tipos de Roque, o curso e o grande, dependendo da direção que a Torre é movida;
+    - En Passant: que é uma jogada onde um peão avança duas casas a partir da posição inicial, e um peão adversário <br>
+    que esteja ao lado pode capturá-lo como se ele tivesse avançado apenas uma casa.
+    - Promoção: A promoção do peão para Dama ou Rainha é uma jogada onde um peão que chega na última linha do tabuleiro <br>
+    pode ser promovido a uma peça mais poderosa, normalmente a Dama ou a Rainha, dando ao jogador uma vantagem estratégica.
 
 
